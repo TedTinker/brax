@@ -19,33 +19,14 @@ import functools
 from typing import Callable, Optional, Union, overload
 
 import brax
-from brax.envs import ant
-from brax.envs import fast
-from brax.envs import fetch
 from brax.envs import grasp
-from brax.envs import halfcheetah
-from brax.envs import hopper
-from brax.envs import humanoid
-from brax.envs import reacher
-from brax.envs import reacherangle
-from brax.envs import ur5e
-from brax.envs import walker2d
-from brax.envs import wrappers
 from brax.envs.env import Env, State, Wrapper
 import gym
 
 _envs = {
-    'ant': ant.Ant,
-    'fast': fast.Fast,
-    'fetch': fetch.Fetch,
-    'grasp': grasp.Grasp,
-    'halfcheetah': halfcheetah.Halfcheetah,
-    'hopper': hopper.Hopper,
-    'humanoid': humanoid.Humanoid,
-    'reacher': reacher.Reacher,
-    'reacherangle': reacherangle.ReacherAngle,
-    'ur5e': ur5e.Ur5e,
-    'walker2d': walker2d.Walker2d,
+    'grasp_sphere': grasp_sphere.Grasp_Sphere,
+    'grasp_cube': grasp_cube.Grasp_Cube,
+    'grasp_pyramid': grasp_pyramid.Grasp_Pyramid,
 }
 
 
