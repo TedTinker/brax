@@ -19,7 +19,7 @@ import functools
 from typing import Callable, Optional, Union, overload
 
 import brax
-from brax.envs import grasp
+from brax.envs import grasp_sphere, grasp_cube, grasp_pyramid
 from brax.envs.env import Env, State, Wrapper
 import gym
 
