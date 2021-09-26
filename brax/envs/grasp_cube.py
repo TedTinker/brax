@@ -212,7 +212,7 @@ bodies {
 bodies {
   name: "Object"
   colliders {
-    box(
+    box {
       length: 2
     }
     #capsule {
