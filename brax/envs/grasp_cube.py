@@ -213,9 +213,7 @@ bodies {
   name: "Object"
   colliders {
     box {
-      x: 1
-      y: 1
-      z: 1
+    # What goes here?
     }
     rotation { x: 90 }
   }
