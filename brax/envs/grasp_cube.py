@@ -213,12 +213,10 @@ bodies {
   name: "Object"
   colliders {
     box {
-      length: 2
+      x: 1
+      y: 1
+      z: 1
     }
-    #capsule {
-    #  radius: 1.0
-    #  length: 2.02
-    #}
     rotation { x: 90 }
   }
   inertia {
