@@ -213,8 +213,8 @@ bodies {
   name: "Object"
   colliders {
     capsule {
-      radius: 0.1
-      length: 1
+      radius: 0.2
+      length: 2
     }
     rotation { x: 90 }
   }
