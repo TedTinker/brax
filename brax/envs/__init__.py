@@ -26,8 +26,8 @@ import gym
 
 _envs = {
     'grasp_sphere': grasp_sphere.Grasp_Sphere,
-    'grasp_pencil': grasp_cube.Grasp_Pencil,
-    'grasp_pole': grasp_pyramid.Grasp_Pole,
+    'grasp_pencil': grasp_pencil.Grasp_Pencil,
+    'grasp_pole': grasp_pole.Grasp_Pole,
 }
 
 
