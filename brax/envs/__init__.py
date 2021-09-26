@@ -19,15 +19,15 @@ import functools
 from typing import Callable, Optional, Union, overload
 
 import brax
-from brax.envs import grasp_sphere, grasp_cube, grasp_pyramid
+from brax.envs import grasp_sphere, grasp_pencil, grasp_pole
 from brax.envs import wrappers
 from brax.envs.env import Env, State, Wrapper
 import gym
 
 _envs = {
     'grasp_sphere': grasp_sphere.Grasp_Sphere,
-    'grasp_cube': grasp_cube.Grasp_Cube,
-    'grasp_pyramid': grasp_pyramid.Grasp_Pyramid,
+    'grasp_pencil': grasp_cube.Grasp_Pencil,
+    'grasp_pole': grasp_pyramid.Grasp_Pole,
 }
 
 
