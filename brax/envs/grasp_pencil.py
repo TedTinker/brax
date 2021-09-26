@@ -23,7 +23,7 @@ import jax
 import jax.numpy as jnp
 
 
-class Grasp_Cube(env.Env):
+class Grasp_Pencil(env.Env):
   """Grasp trains an agent to pick up an object.
   Grasp observes three bodies: 'Hand', 'Object', and 'Target'.
   When Object reaches Target, the agent is rewarded.
