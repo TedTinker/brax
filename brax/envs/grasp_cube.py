@@ -214,7 +214,7 @@ bodies {
   colliders {
     capsule {
       radius: 1.0
-      length: 12.02 # 2.02
+      length: 2.02
     }
     rotation { x: 90 }
   }
