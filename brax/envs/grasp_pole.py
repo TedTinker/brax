@@ -37,7 +37,7 @@ class Grasp_Pyramid(env.Env):
     self.palm_idx = self.sys.body.index['HandPalm']
     self.target_radius = 1.1
     self.target_distance = 10.
-    self.target_height = 3. # 8.
+    self.target_height = 8.
 
     # map the [-1, 1] action space into a valid angle for the actuators
     limits = []
@@ -214,7 +214,7 @@ bodies {
   colliders {
     capsule {
       radius: 1.0
-      length: 2.02
+      length: 4.02
     }
     rotation { x: 90 }
   }
