@@ -37,7 +37,7 @@ class Grasp_Pencil(env.Env):
     self.palm_idx = self.sys.body.index['HandPalm']
     self.target_radius = 1.1
     self.target_distance = 10.
-    self.target_height = 8.
+    self.target_height = 4.
 
     # map the [-1, 1] action space into a valid angle for the actuators
     limits = []
